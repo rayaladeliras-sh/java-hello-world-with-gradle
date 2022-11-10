@@ -28,9 +28,8 @@ dependencies {
 }
 */
 
-apply plugin: 'java'
-
 plugins {
+  id "java"
   id "org.sonarqube" version "3.5.0.2730"
 }
 
