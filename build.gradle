@@ -29,8 +29,6 @@ dependencies {
 */
 
 apply plugin: 'java'
-apply plugin: 'eclipse'
-apply plugin: 'application'
 
 plugins {
   id "org.sonarqube" version "3.5.0.2730"
@@ -69,8 +67,3 @@ dependencies {
 }
 // end::dependencies[]
 
-// tag::wrapper[]
-task wrapper(type: Wrapper) {
-    gradleVersion = '3.5'
-}
-// end::wrapper[]
