@@ -34,7 +34,7 @@ public class Greeter {
 
   {
 
-  	if (name.equal("")) 
+  	if (name.equals("")) 
 
     {
 
