@@ -41,8 +41,6 @@ sonarqube {
   }
 }
 
-mainClassName = 'hello.HelloWorld'
-
 // tag::repositories[]
 repositories {
     mavenCentral()
