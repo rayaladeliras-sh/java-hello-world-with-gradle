@@ -40,6 +40,6 @@ public class TestGreeter {
        g.setName("Boris");
        assertEquals(g.duplicate(),"Hello Boris!");
    }
-   */
+   
    
 }
