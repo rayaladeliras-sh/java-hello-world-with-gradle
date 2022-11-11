@@ -51,5 +51,23 @@ public class Greeter {
     }
 
   }
+  
+  public String duplicate(){
+    if (name.equals("")) 
+
+    {
+
+       return "Hello!";
+
+    }
+
+    else 
+
+    {
+
+       return "Hello " + name + "!";
+
+    }
+  }
 
 }
