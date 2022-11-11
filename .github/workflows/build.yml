@@ -38,4 +38,4 @@ jobs:
         env:
           GITHUB_TOKEN: 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
           SONAR_TOKEN: 7093292c8a905c8b694065a2b5e52ff18d8fb9cc
-        run: ./gradlew test jacocoTestReport sonarqube
+        run: ./gradlew test jacocoTestReport sonar
