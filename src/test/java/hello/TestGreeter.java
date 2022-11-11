@@ -34,12 +34,11 @@ public class TestGreeter {
        assertEquals(g.getName(),"Boris");
        assertEquals(g.sayHello(),"Hello Boris!");
    }
-   /*
+   
    @Test
-   public void newtestWMGreeterFail() {
-       g.setName("Sandvich");
-       assertEquals(g.getName(),"Boris");
-       assertEquals(g.sayHello(),"Hello Boris!");
+   public void testDuplicate() {
+       g.setName("Boris");
+       assertEquals(g.duplicate(),"Hello Boris!");
    }
    */
    
