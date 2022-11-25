@@ -28,7 +28,7 @@ public class TestGreeter {
       assertEquals(g.sayHello(),"Hello World!");
    }
    
-   @Test
+   /*@Test
    public void newtestWMGreeterPass() {
        g.setName("Boris");
        assertEquals(g.getName(),"Boris");
@@ -39,7 +39,7 @@ public class TestGreeter {
    public void testDuplicate() {
        g.setName("Boris");
        assertEquals(g.duplicate(),"Hello Boris!");
-   }
+   }*/
    
    
 }
