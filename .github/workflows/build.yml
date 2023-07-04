@@ -32,10 +32,10 @@ jobs:
       - name: Build and analyze
         env:
           GITHUB_TOKEN: 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
-          SONAR_TOKEN: 7093292c8a905c8b694065a2b5e52ff18d8fb9cc
+          SONAR_TOKEN: 67b26a911b5a7ef4a94d01b476c183d9e54d7d7c
         run: ./gradlew build sonarqube --info
       - name: Coverage
         env:
           GITHUB_TOKEN: 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
-          SONAR_TOKEN: 7093292c8a905c8b694065a2b5e52ff18d8fb9cc
+          SONAR_TOKEN: 67b26a911b5a7ef4a94d01b476c183d9e54d7d7c
         run: ./gradlew test jacocoTestReport sonar
